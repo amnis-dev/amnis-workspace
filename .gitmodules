@@ -13,3 +13,6 @@
 [submodule "packages/amnis-db-cosmos"]
 	path = packages/amnis-db-cosmos
 	url = git@github.com:amnis-dev/amnis-db-cosmos.git
+[submodule "packages/amnis-emailer-sendgrid"]
+	path = packages/amnis-emailer-sendgrid
+	url = git@github.com:amnis-dev/amnis-emailer-sendgrid.git
