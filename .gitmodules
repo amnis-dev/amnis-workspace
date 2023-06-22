@@ -1,0 +1,15 @@
+[submodule "packages/amnis-state"]
+	path = packages/amnis-state
+	url = git@github.com:amnis-dev/amnis-state.git
+[submodule "packages/amnis-api"]
+	path = packages/amnis-api
+	url = git@github.com:amnis-dev/amnis-api.git
+[submodule "packages/amnis-express"]
+	path = packages/amnis-express
+	url = git@github.com:amnis-dev/amnis-express.git
+[submodule "packages/amnis-mock"]
+	path = packages/amnis-mock
+	url = git@github.com:amnis-dev/amnis-mock.git
+[submodule "packages/amnis-db-cosmos"]
+	path = packages/amnis-db-cosmos
+	url = git@github.com:amnis-dev/amnis-db-cosmos.git
