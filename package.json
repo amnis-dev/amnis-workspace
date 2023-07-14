@@ -8,6 +8,8 @@
   "author": "Eric Crowell",
   "license": "MIT",
   "scripts": {
-    "git-subs": "pnpm -r exec git"
+    "subs": "pnpm -r exec",
+    "git:init": "git submodule update --init --recursive",
+    "git:pull": "git submodule update --recursive --remote"
   }
 }

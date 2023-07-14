@@ -16,3 +16,6 @@
 [submodule "packages/amnis-emailer-sendgrid"]
 	path = packages/amnis-emailer-sendgrid
 	url = git@github.com:amnis-dev/amnis-emailer-sendgrid.git
+[submodule "packages/configs"]
+	path = packages/configs
+	url = git@github.com:amnis-dev/configs.git
