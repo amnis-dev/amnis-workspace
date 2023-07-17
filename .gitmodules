@@ -19,3 +19,6 @@
 [submodule "packages/configs"]
 	path = packages/configs
 	url = git@github.com:amnis-dev/configs.git
+[submodule "packages/examples"]
+	path = packages/examples
+	url = git@github.com:amnis-dev/examples.git
