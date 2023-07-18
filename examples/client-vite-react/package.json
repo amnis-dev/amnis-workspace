@@ -1,0 +1,43 @@
+{
+  "name": "client-vite-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "@amnis/api": "workspace:^0",
+    "@amnis/state": "workspace:^0",
+    "@reduxjs/toolkit": "https://github.com/amnis-dev/packages/raw/main/redux-toolkit-2.0.0-beta.0-patched.tgz",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "@amnis/eslint-config-react": "^2.3.0",
+    "@amnis/mock": "workspace:^0",
+    "@amnis/tsconfig-node": "^2.3.0",
+    "@amnis/tsconfig-react": "^2.3.0",
+    "@playwright/test": "^1.36.1",
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "msw": "^1.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0"
+  }
+}
