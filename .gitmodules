@@ -19,3 +19,9 @@
 [submodule "packages/configs"]
 	path = packages/configs
 	url = git@github.com:amnis-dev/configs.git
+[submodule "packages/amnis-emailer-mailjet"]
+	path = packages/amnis-emailer-mailjet
+	url = git@github.com:amnis-dev/amnis-emailer-mailjet.git
+[submodule "packages/amnis-react"]
+	path = packages/amnis-react
+	url = git@github.com:amnis-dev/amnis-react.git
